@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: SHOW_DETAILS_DIM
+    columns: 
+      - name: ID
+        tests:
+          - unique
+          - not_null
+
+  - name: SCORES_VOTES_DIM
+    columns: 
+      - name: ID
+        tests:
+          - unique
+          - not_null
